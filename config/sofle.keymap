@@ -57,21 +57,7 @@
         };
 
         lower_layer {
-            display-name = "LOWER";
-            bindings = <
-&kp PAUSE_BREAK       &kp N1  &kp N2            &kp N3       &kp N4          &kp N5                                           &kp N6                 &kp N7           &kp N8       &kp N9             &kp N0            &kp PRINTSCREEN
-&kp C_AL_MY_COMPUTER      &kp TILDE  &kp PIPE             &kp AT           &kp LBKT           &kp RBKT                        &kp LBRC   &kp RBRC          &kp CARET       &kp POUND             &kp EXCL           &kp INS
-&mt LEFT_WIN ESC      &kp PRCNT  &mt LEFT_SHIFT FSLH  &mt LCTRL MINUS  &mt LEFT_ALT LPAR  &kp RPAR                        &kp LT     &mt RIGHT_ALT GT  &mt RCTRL PLUS  &mt RIGHT_SHIFT STAR  &kp EQUAL          &kp RIGHT_WIN
-&kp SCROLLLOCK        &kp GRAVE  &kp BSLH             &kp UNDER        &kp DLLR           &none     &trans     &trans     &none      &kp AMPS          &kp SEMI        &kp COLON             &kp DOUBLE_QUOTES  &kp DELETE
-                    &none    &none      &none    &trans     &lt 4 TAB     &lt ADJUST ENTER       &lt RAISE SPACE    &none   &none    &none
-            >;
 
-            sensor-bindings =
-                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
-                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
-        };
-
-        raise_layer {
             display-name = "RAISE";
             bindings = <
 &kp PAUSE_BREAK       &kp N1  &kp N2            &kp N3       &kp N4          &kp N5                                           &kp N6                 &kp N7           &kp N8       &kp N9             &kp N0            &kp PRINTSCREEN
@@ -79,6 +65,20 @@
 &mt LEFT_WIN ESC      &kp RS(A)   &mt LEFT_SHIFT RS(R)  &mt LCTRL RS(S)  &mt LEFT_ALT RS(T)  &kp RS(G)                                            &kp RS(M)                  &mt RIGHT_ALT RS(N)  &mt RCTRL RS(E)  &mt RIGHT_SHIFT RS(I)  &kp RS(O)             &kp RIGHT_WIN
 &tog RAISE              &kp RS(Z)   &kp RS(X)             &kp RS(C)        &kp RS(D)           &kp RS(V)       &kp C_MUTE &kp K_PLAY_PAUSE      &kp RS(K)                  &kp RS(H)    &kp COMMA &kp DOT &kp SINGLE_QUOTE  &kp DEL
                         &none       &none       &none       &lt LOWER BACKSPACE  &lt ARROW TAB    &lt ADJUST ENTER  &trans    &none    &none   &none
+            >;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
+                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
+        };
+
+        raise_layer {
+            display-name = "LOWER";
+            bindings = <
+&kp PAUSE_BREAK       &kp N1  &kp N2            &kp N3       &kp N4          &kp N5                                           &kp N6                 &kp N7           &kp N8       &kp N9             &kp N0            &kp PRINTSCREEN
+&kp C_AL_MY_COMPUTER      &kp TILDE  &kp PIPE             &kp AT           &kp LBKT           &kp RBKT                        &kp LBRC   &kp RBRC          &kp CARET       &kp POUND             &kp EXCL           &kp INS
+&mt LEFT_WIN ESC      &kp PRCNT  &mt LEFT_SHIFT FSLH  &mt LCTRL MINUS  &mt LEFT_ALT LPAR  &kp RPAR                        &kp LT     &mt RIGHT_ALT GT  &mt RCTRL PLUS  &mt RIGHT_SHIFT STAR  &kp EQUAL          &kp RIGHT_WIN
+&kp SCROLLLOCK        &kp GRAVE  &kp BSLH             &kp UNDER        &kp DLLR           &none     &trans     &trans     &none      &kp AMPS          &kp SEMI        &kp COLON             &kp DOUBLE_QUOTES  &kp DELETE
+                    &none    &none      &none    &trans     &lt 4 TAB     &lt ADJUST ENTER       &lt RAISE SPACE    &none   &none    &none
             >;
 
             sensor-bindings =
