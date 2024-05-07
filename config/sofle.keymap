@@ -23,11 +23,11 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
         st1 {
-            if-layers = <LOWER ARROW>;
+            if-layers = <RAISE ARROW>;
             then-layer = <SETTINGS>;
         };
         st2 {
-            if-layers = <RAISE ADJUST>;
+            if-layers = <LOWER ADJUST>;
             then-layer = <SETTINGS>;
         };
         st3 {
