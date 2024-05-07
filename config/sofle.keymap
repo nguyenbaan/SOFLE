@@ -58,7 +58,7 @@
             bindings = <
 &kp PAUSE_BREAK       &kp N1  &kp N2            &kp N3       &kp N4          &kp N5                                           &kp N6                 &kp N7           &kp N8       &kp N9             &kp N0            &kp PRINTSCREEN
 &kp C_AL_MY_COMPUTER     &kp RS(Q)   &kp RS(W)             &kp RS(F)        &kp RS(P)           &kp RS(B)                             &kp RS(J)                  &kp RS(L)            &kp RS(U)        &kp RS(Y)    &kp QMARK      &kp INS
-&mt LEFT_WIN E   SC      &kp RS(A)   &mt LEFT_SHIFT RS(R)  &mt LCTRL RS(S)  &mt LEFT_ALT RS(T)  &kp RS(G)                                            &kp RS(M)                  &mt RIGHT_ALT RS(N)  &mt RCTRL RS(E)  &mt RIGHT_SHIFT RS(I)  &kp RS(O)             &kp RIGHT_WIN
+&mt LEFT_WIN ESC      &kp RS(A)   &mt LEFT_SHIFT RS(R)  &mt LCTRL RS(S)  &mt LEFT_ALT RS(T)  &kp RS(G)                                            &kp RS(M)                  &mt RIGHT_ALT RS(N)  &mt RCTRL RS(E)  &mt RIGHT_SHIFT RS(I)  &kp RS(O)             &kp RIGHT_WIN
 &tog LOWER              &kp RS(Z)   &kp RS(X)             &kp RS(C)        &kp RS(D)           &kp RS(V)       &kp C_MUTE &kp K_PLAY_PAUSE      &kp RS(K)                  &kp RS(H)    &kp COMMA &kp DOT &kp SINGLE_QUOTE  &kp DEL
                         &none       &none       &none       &lt RAISE BACKSPACE  &lt ARROW TAB    &lt ADJUST ENTER  &trans    &none    &none   &none
             >;
