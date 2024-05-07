@@ -33,7 +33,7 @@
             display-name = "default";
             bindings = <
 &kp PAUSE_BREAK       &kp N1  &kp N2            &kp N3       &kp N4          &kp N5                                           &kp N6                 &kp N7           &kp N8       &kp N9             &kp N0            &kp PRINTSCREEN
-&kp C_AL_FILES     &kp Q   &kp W             &kp F        &kp P           &kp B                             &kp J                  &kp L            &kp U        &kp Y    &kp QUESTION      &kp INS
+&kp C_AL_MY_COMPUTER     &kp Q   &kp W             &kp F        &kp P           &kp B                             &kp J                  &kp L            &kp U        &kp Y    &kp QMARK      &kp INS
 &kp TAB   &kp A  &kp S    &kp D    &kp F     &kp G                            &kp H  &kp J     &kp K     &kp L    &kp SEMI &kp SQT
 &kp CAPS              &kp Z   &kp X             &kp C        &kp D           &kp V       &kp C_MUTE &none      &kp K                  &kp H    &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
                  &kp LGUI &kp LALT &kp LCTRL &mo LOWER  &kp RET    &kp SPACE  &mo RAISE  &kp RCTRL &kp RALT  &kp RGUI
