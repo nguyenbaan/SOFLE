@@ -39,7 +39,9 @@
                  &kp LGUI &kp LALT &kp LCTRL &mo LOWER  &kp RET    &kp SPACE  &mo RAISE  &kp RCTRL &kp RALT  &kp RGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
+                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
 
         lower_layer {
@@ -52,7 +54,9 @@
                     &trans    &trans      &trans    &trans     &trans &trans  &trans    &trans   &trans    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
+                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
 
         raise_layer {
@@ -65,7 +69,9 @@
                         &trans       &trans       &trans       &trans        &trans  &trans  &trans    &trans    &trans   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
+                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
 
         adjust_layer {
@@ -77,6 +83,10 @@
 &none             &none           &none           &none           &none           &none            &rgb_ug RGB_TOG &none  &none &none &none &none &none &none
                                   &none           &none           &none           &none            &none           &none  &none &none &none &none
             >;
+
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
+                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
         layer_4 {
             display-name = "SETTINGS";
@@ -87,6 +97,10 @@
 &none             &none           &none           &none           &none           &none            &rgb_ug RGB_TOG &none  &none &none &none &none &none &none
                                   &none           &none           &none           &none            &none           &none  &none &none &none &none
             >;
+
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
+                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
 
     };
