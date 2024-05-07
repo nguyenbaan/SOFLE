@@ -36,7 +36,7 @@
 &kp C_AL_MY_COMPUTER     &kp Q   &kp W             &kp F        &kp P           &kp B                             &kp J                  &kp L            &kp U        &kp Y    &kp QMARK      &kp INS
 &mt LEFT_WIN ESC      &kp A   &mt LEFT_SHIFT R  &mt LCTRL S  &mt LEFT_ALT T  &kp G                                            &kp M                  &mt RIGHT_ALT N  &mt RCTRL E  &mt RIGHT_SHIFT I  &kp O             &kp RIGHT_WIN
 &kp CAPS              &kp Z   &kp X             &kp C        &kp D           &kp V       &kp C_MUTE &kp K_PLAY_PAUSE      &kp K                  &kp H    &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-                 &kp LGUI &kp LALT &kp LCTRL &mo LOWER  &kp RET    &kp SPACE  &mo RAISE  &kp RCTRL &kp RALT  &kp RGUI
+                 &none &none &none &mo LOWER  &kp RET    &kp SPACE  &mo RAISE  &none &none  &none
             >;
 
             sensor-bindings =
@@ -51,7 +51,7 @@
 &kp C_AL_MY_COMPUTER      &kp TILDE  &kp PIPE             &kp AT           &kp LBKT           &kp RBKT                        &kp LBRC   &kp RBRC          &kp CARET       &kp POUND             &kp EXCL           &kp INS
 &mt LEFT_WIN ESC      &kp PRCNT  &mt LEFT_SHIFT FSLH  &mt LCTRL MINUS  &mt LEFT_ALT LPAR  &kp RPAR                        &kp LT     &mt RIGHT_ALT GT  &mt RCTRL PLUS  &mt RIGHT_SHIFT STAR  &kp EQUAL          &kp RIGHT_WIN
 &kp SCROLLLOCK        &kp GRAVE  &kp BSLH             &kp UNDER        &kp DLLR           &none     &trans     &trans     &none      &kp AMPS          &kp SEMI        &kp COLON             &kp DOUBLE_QUOTES  &kp DELETE
-                    &trans    &trans      &trans    &trans     &trans &trans  &trans    &trans   &trans    &trans
+                    &none    &none      &none    &trans     &trans &trans  &trans    &none   &none    &none
             >;
 
             sensor-bindings =
@@ -66,7 +66,7 @@
 &kp C_AL_MY_COMPUTER  &kp C_AC_UNDO  &kp C_AC_FORWARD  &kp TAB    &kp TAB   &kp TAB                       &kp RA(HOME)  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp RC(N)        &kp RC(RS(N))   &kp INS
 &mt LEFT_WIN ESC      &kp C_AC_SAVE  &kp TAB    &kp TAB  &kp TAB  &kp LA(ESC)                            &kp RG(V)     &kp RIGHT_ALT       &kp RCTRL            &kp RIGHT_SHIFT  &kp RIGHT_WIN   &kp RIGHT_WIN
 &kp CAPS              &kp LA(A)      &kp C_AC_CUT      &kp C_AC_COPY   &kp C_AC_PASTE   &kp TAB           &trans       &trans  &none    &none          &none         &none       &none  &kp DEL
-                        &trans       &trans       &trans       &trans        &trans  &trans  &trans    &trans    &trans   &trans
+                        &none       &none       &none       &trans        &trans  &trans  &trans    &none    &none   &none
             >;
 
             sensor-bindings =
