@@ -30,12 +30,12 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "default";
+            display-name = "BASE";
             bindings = <
 &kp PAUSE_BREAK       &kp N1  &kp N2            &kp N3       &kp N4          &kp N5                                           &kp N6                 &kp N7           &kp N8       &kp N9             &kp N0            &kp PRINTSCREEN
 &kp C_AL_MY_COMPUTER     &kp Q   &kp W             &kp F        &kp P           &kp B                             &kp J                  &kp L            &kp U        &kp Y    &kp QMARK      &kp INS
-&kp TAB   &kp A  &kp S    &kp D    &kp F     &kp G                            &kp H  &kp J     &kp K     &kp L    &kp SEMI &kp SQT
-&kp CAPS              &kp Z   &kp X             &kp C        &kp D           &kp V       &kp C_MUTE &none      &kp K                  &kp H    &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
+&mt LEFT_WIN ESC      &kp A   &mt LEFT_SHIFT R  &mt LCTRL S  &mt LEFT_ALT T  &kp G                                            &kp M                  &mt RIGHT_ALT N  &mt RCTRL E  &mt RIGHT_SHIFT I  &kp O             &kp RIGHT_WIN
+&kp CAPS              &kp Z   &kp X             &kp C        &kp D           &kp V       &kp C_MUTE &kp K_PLAY_PAUSE      &kp K                  &kp H    &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
                  &kp LGUI &kp LALT &kp LCTRL &mo LOWER  &kp RET    &kp SPACE  &mo RAISE  &kp RCTRL &kp RALT  &kp RGUI
             >;
 
@@ -45,7 +45,7 @@
         };
 
         lower_layer {
-            display-name = "lower";
+            display-name = "RAISE";
             bindings = <
 &kp PAUSE_BREAK       &kp N1  &kp N2            &kp N3       &kp N4          &kp N5                                           &kp N6                 &kp N7           &kp N8       &kp N9             &kp N0            &kp PRINTSCREEN
 &kp GRAVE &kp N1    &kp N2    &kp N3      &kp N4    &kp N5                    &kp N6    &kp N7   &kp N8    &kp N9    &kp N0    &kp F12
@@ -60,7 +60,7 @@
         };
 
         raise_layer {
-            display-name = "raise";
+            display-name = "MOUSE";
             bindings = <
 &kp F11               &kp F1         &kp F2            &kp F3          &kp F4           &kp F5                                 &kp F6        &kp F7              &kp F8               &kp F9           &kp F10         &kp F12
 &trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                        &kp PG_UP &trans    &kp UP   &trans    &kp N0  &trans
@@ -75,7 +75,7 @@
         };
 
         adjust_layer {
-            display-name = "adjust";
+            display-name = "ARROW";
             bindings = <
 &kp F11               &kp F1         &kp F2            &kp F3          &kp F4           &kp F5                                 &kp F6        &kp F7              &kp F8               &kp F9           &kp F10         &kp F12
 &ext_power EP_TOG &rgb_ug RGB_HUD &rgb_ug RGB_HUI &rgb_ug RGB_SAD &rgb_ug RGB_SAI &rgb_ug RGB_EFF                         &none &none &none &none &none &none
