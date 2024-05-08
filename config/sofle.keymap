@@ -12,6 +12,9 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors/mouse_keys.dtsi>
 
+rpi: require_prior_idle {
+    quick-tap-ms = <200>;
+};
 #define BASE 0
 #define LOWER 1
 #define RAISE 2
