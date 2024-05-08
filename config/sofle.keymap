@@ -138,10 +138,10 @@
         layer_6 {
             display-name = "LOCK";
             bindings = <
-&to BASE        &none           &none           &none           &none           &none            &none  &none  &none &none &none &none &none &to BASE 
-&none        &none           &none           &none           &none           &none            &none  &none  &none &none &none &none &none &none 
-&none        &none           &none           &none           &none           &none            &none  &none  &none &none &none &none &none &none 
-&none        &none           &none           &none           &none           &none            &none  &none  &none &none &none &none &none &none
+&to BASE        &none           &none           &none           &none           &none            &none  &none  &none &none &none &to BASE 
+&none        &none           &none           &none           &none           &none               &none  &none  &none &none &none &none 
+&none        &none           &none           &none           &none           &none               &none  &none  &none &none &none &none 
+&none        &none           &none           &none           &none           &none  &none  &none &none &none &none &none &none &none
                                   &none           &none           &none           &none             &none            &none   &none &none &none &none
             >;
         };
