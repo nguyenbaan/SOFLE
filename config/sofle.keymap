@@ -12,15 +12,24 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors/mouse_keys.dtsi>
 
-rpi: require_prior_idle {
-    quick-tap-ms = <200>;
-};
 #define BASE 0
 #define LOWER 1
 #define RAISE 2
 #define ADJUST 3
 #define ARROW 4
 #define SETTINGS 5
+
+rpi: require_prior_idle {
+    compatible = "zmk,behavior-hold-tap";
+    #binding-cells = <2>;
+    flavor = "tap-preferred";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <200>;
+    require-prior-idle-ms = <125>;
+    bindings = <&kp>, <&kp>;
+};
+
+
 / {
 
    // Activate ADJUST layer by pressing raise and lower
