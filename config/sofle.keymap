@@ -53,11 +53,11 @@
         default_layer {
             display-name = "BASE";
             bindings = <
-&kp PAUSE_BREAK       &kp N1  &kp N2            &kp N3       &kp N4          &kp N5        &kp C           &kp C                        &kp N6                 &kp N7           &kp N8       &kp N9             &kp N0            &kp PRINTSCREEN
-&kp C_AL_MY_COMPUTER     &kp Q   &kp W             &kp F        &kp P           &kp B      &kp C               &kp C        &kp J                  &kp L            &kp U        &kp Y    &kp QMARK      &kp INS
-&mt LEFT_WIN ESC      &kp A   &mt LEFT_SHIFT R  &mt LCTRL S  &mt LEFT_ALT T  &kp G      &kp C                   &kp C                   &kp M                  &mt RIGHT_ALT N  &mt RCTRL E  &mt RIGHT_SHIFT I  &kp O             &kp RIGHT_WIN
-&tog LOWER              &kp Z   &kp X             &kp C        &kp D           &kp V       &kp C_MUTE &kp C &kp C &kp C_MUTE      &kp K                  &kp H    &kp COMMA &kp DOT &kp SINGLE_QUOTE  &kp DEL
-                 &none &none &none &lt RAISE BACKSPACE  &lt ARROW TAB  &kp C &kp C  &lt ADJUST ENTER       &lt LOWER SPACE  &none &none  &none
+&kp PAUSE_BREAK       &kp N1  &kp N2            &kp N3       &kp N4          &kp N5                                           &kp N6                 &kp N7           &kp N8       &kp N9             &kp N0            &kp PRINTSCREEN
+&kp C_AL_MY_COMPUTER     &kp Q   &kp W             &kp F        &kp P           &kp B                             &kp J                  &kp L            &kp U        &kp Y    &kp QMARK      &kp INS
+&mt LEFT_WIN ESC      &kp A   &mt LEFT_SHIFT R  &mt LCTRL S  &mt LEFT_ALT T  &kp G                                            &kp M                  &mt RIGHT_ALT N  &mt RCTRL E  &mt RIGHT_SHIFT I  &kp O             &kp RIGHT_WIN
+&tog LOWER              &kp Z   &kp X             &kp C        &kp D           &kp V       &kp C_MUTE &kp C_MUTE      &kp K                  &kp H    &kp COMMA &kp DOT &kp SINGLE_QUOTE  &kp DEL
+                 &none &none &none &lt RAISE BACKSPACE  &lt ARROW TAB     &lt ADJUST ENTER       &lt LOWER SPACE  &none &none  &none
             >;
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
@@ -66,11 +66,11 @@
         lower_layer {
             display-name = "RAISE";
             bindings = <
-&kp PAUSE_BREAK       &kp N1  &kp N2            &kp N3       &kp N4          &kp N5            &kp C           &kp C                    &kp N6                 &kp N7           &kp N8       &kp N9             &kp N0            &kp PRINTSCREEN
-&kp C_AL_MY_COMPUTER     &kp RS(Q)   &kp RS(W)             &kp RS(F)        &kp RS(P)           &kp RS(B)     &kp C           &kp C             &kp RS(J)                  &kp RS(L)            &kp RS(U)        &kp RS(Y)    &kp QMARK      &kp INS
-&mt LEFT_WIN ESC      &kp RS(A)   &mt LEFT_SHIFT RS(R)  &mt LCTRL RS(S)  &mt LEFT_ALT RS(T)  &kp RS(G)        &kp C                 &kp C                   &kp RS(M)                  &mt RIGHT_ALT RS(N)  &mt RCTRL RS(E)  &mt RIGHT_SHIFT RS(I)  &kp RS(O)             &kp RIGHT_WIN
-&tog LOWER              &kp RS(Z)   &kp RS(X)             &kp RS(C)        &kp RS(D)           &kp RS(V)       &kp C_MUTE &kp C &kp C &kp C_MUTE      &kp RS(K)                  &kp RS(H)    &kp COMMA &kp DOT &kp SINGLE_QUOTE  &kp DEL
-                        &none       &none       &none       &lt RAISE BACKSPACE  &lt ARROW TAB &kp C &kp C  &lt ADJUST ENTER  &trans    &none    &none   &none
+&kp PAUSE_BREAK       &kp N1  &kp N2            &kp N3       &kp N4          &kp N5                                           &kp N6                 &kp N7           &kp N8       &kp N9             &kp N0            &kp PRINTSCREEN
+&kp C_AL_MY_COMPUTER     &kp RS(Q)   &kp RS(W)             &kp RS(F)        &kp RS(P)           &kp RS(B)                             &kp RS(J)                  &kp RS(L)            &kp RS(U)        &kp RS(Y)    &kp QMARK      &kp INS
+&mt LEFT_WIN ESC      &kp RS(A)   &mt LEFT_SHIFT RS(R)  &mt LCTRL RS(S)  &mt LEFT_ALT RS(T)  &kp RS(G)                                            &kp RS(M)                  &mt RIGHT_ALT RS(N)  &mt RCTRL RS(E)  &mt RIGHT_SHIFT RS(I)  &kp RS(O)             &kp RIGHT_WIN
+&tog LOWER              &kp RS(Z)   &kp RS(X)             &kp RS(C)        &kp RS(D)           &kp RS(V)       &kp C_MUTE &kp C_MUTE      &kp RS(K)                  &kp RS(H)    &kp COMMA &kp DOT &kp SINGLE_QUOTE  &kp DEL
+                        &none       &none       &none       &lt RAISE BACKSPACE  &lt ARROW TAB    &lt ADJUST ENTER  &trans    &none    &none   &none
             >;
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
@@ -79,11 +79,11 @@
         raise_layer {
             display-name = "LOWER";
             bindings = <
-&kp PAUSE_BREAK       &kp N1  &kp N2            &kp N3       &kp N4          &kp N5         &kp C                   &kp C               &kp N6                 &kp N7           &kp N8       &kp N9             &kp N0            &kp PRINTSCREEN
-&kp C_AL_MY_COMPUTER      &kp TILDE  &kp PIPE             &kp AT           &kp LBKT           &kp RBKT      &kp C      &kp C            &kp LBRC   &kp RBRC          &kp CARET       &kp POUND             &kp EXCL           &kp INS
-&mt LEFT_WIN ESC      &kp PRCNT  &mt LEFT_SHIFT FSLH  &mt LCTRL MINUS  &mt LEFT_ALT LPAR  &kp RPAR    &kp C         &kp C           &kp LT     &mt RIGHT_ALT GT  &mt RCTRL PLUS  &mt RIGHT_SHIFT STAR  &kp EQUAL          &kp RIGHT_WIN
-&kp SCROLLLOCK        &kp GRAVE  &kp BSLH             &kp UNDER        &kp DLLR           &none     &trans  &kp C  &kp C &trans     &none      &kp AMPS          &kp SEMI        &kp COLON             &kp DOUBLE_QUOTES  &kp DELETE
-                    &none    &none      &none    &trans     &lt 4 TAB     &lt ADJUST ENTER &kp C  &kp C    &lt LOWER SPACE    &none   &none    &none
+&kp PAUSE_BREAK       &kp N1  &kp N2            &kp N3       &kp N4          &kp N5                                           &kp N6                 &kp N7           &kp N8       &kp N9             &kp N0            &kp PRINTSCREEN
+&kp C_AL_MY_COMPUTER      &kp TILDE  &kp PIPE             &kp AT           &kp LBKT           &kp RBKT                        &kp LBRC   &kp RBRC          &kp CARET       &kp POUND             &kp EXCL           &kp INS
+&mt LEFT_WIN ESC      &kp PRCNT  &mt LEFT_SHIFT FSLH  &mt LCTRL MINUS  &mt LEFT_ALT LPAR  &kp RPAR                        &kp LT     &mt RIGHT_ALT GT  &mt RCTRL PLUS  &mt RIGHT_SHIFT STAR  &kp EQUAL          &kp RIGHT_WIN
+&kp SCROLLLOCK        &kp GRAVE  &kp BSLH             &kp UNDER        &kp DLLR           &none     &trans     &trans     &none      &kp AMPS          &kp SEMI        &kp COLON             &kp DOUBLE_QUOTES  &kp DELETE
+                    &none    &none      &none    &trans     &lt 4 TAB     &lt ADJUST ENTER       &lt LOWER SPACE    &none   &none    &none
             >;
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
@@ -92,11 +92,11 @@
         adjust_layer {
             display-name = "MOUSE";
             bindings = <
-&kp F11               &kp F1         &kp F2            &kp F3          &kp F4           &kp F5   &kp C        &kp C                      &kp F6        &kp F7              &kp F8               &kp F9           &kp F10         &kp F12
-&kp C_AL_MY_COMPUTER  &kp RC(Z)  &kp RC(Y)   &mmv MOVE_UP    &msc SCRL_UP   &msc SCRL_DOWN    &kp C        &kp C          &kp RA(HOME)  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp RC(N)        &kp RC(RS(N))   &kp INS
-&mt LEFT_WIN ESC      &kp RC(S)  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp LA(ESC)   &kp C          &kp C               &kp RG(V)     &kp RIGHT_ALT       &kp RCTRL            &kp RIGHT_SHIFT  &kp RIGHT_WIN   &kp RIGHT_WIN
-&kp CAPS              &kp RC(A)      &kp RC(X)      &kp RC(C)   &kp RC(V)   &mkp MCLK           &trans  &kp C  &kp C   &trans  &none    &none          &none         &none       &none  &kp DEL
-                        &none       &none       &none       &mkp LCLK   &mkp RCLK    &trans &kp C &kp C &lt LOWER SPACE    &none    &none   &none
+&kp F11               &kp F1         &kp F2            &kp F3          &kp F4           &kp F5                                 &kp F6        &kp F7              &kp F8               &kp F9           &kp F10         &kp F12
+&kp C_AL_MY_COMPUTER  &kp RC(Z)  &kp RC(Y)   &mmv MOVE_UP    &msc SCRL_UP   &msc SCRL_DOWN                      &kp RA(HOME)  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp RC(N)        &kp RC(RS(N))   &kp INS
+&mt LEFT_WIN ESC      &kp RC(S)  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp LA(ESC)                            &kp RG(V)     &kp RIGHT_ALT       &kp RCTRL            &kp RIGHT_SHIFT  &kp RIGHT_WIN   &kp RIGHT_WIN
+&kp CAPS              &kp RC(A)      &kp RC(X)      &kp RC(C)   &kp RC(V)   &mkp MCLK           &trans       &trans  &none    &none          &none         &none       &none  &kp DEL
+                        &none       &none       &none       &mkp LCLK   &mkp RCLK    &trans  &lt LOWER SPACE    &none    &none   &none
             >;
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
@@ -105,11 +105,11 @@
         layer_4 {
             display-name = "ARROW";
             bindings = <
-&kp F11               &kp F1         &kp F2            &kp F3          &kp F4           &kp F5     &kp C            &kp C                &kp F6        &kp F7              &kp F8               &kp F9           &kp F10         &kp F12
-&kp C_AL_MY_COMPUTER   &kp RC(Z)  &kp RC(Y)  &kp UP          &msc SCRL_UP   &msc SCRL_DOWN  &kp C       &kp C          &kp RA(HOME)     &kp RA(LEFT)     &kp RA(RIGHT_ARROW)  &kp RC(N)        &kp RC(RS(N))    &kp INS
-&mt LEFT_WIN ESC      &kp RC(S)  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TAB   &kp C            &kp C                 &kp RG(V)        &kp RIGHT_ALT    &kp RCTRL            &kp RIGHT_SHIFT  &kp RIGHT_WIN    &kp RIGHT_WIN
-&kp SCROLLLOCK        &kp RC(A)      &kp RC(X)      &kp RC(C)   &kp RC(V)   &kp BACKSPACE     &trans &kp C &kp C  &trans     &none  &none  &none      &none  &none  &kp DEL
-                                  &none           &none           &none           &lt RAISE BACKSPACE &kp C &kp C   &trans    &lt ADJUST ENTER  &lt RAISE SPACE &none &none &none
+&kp F11               &kp F1         &kp F2            &kp F3          &kp F4           &kp F5                                 &kp F6        &kp F7              &kp F8               &kp F9           &kp F10         &kp F12
+&kp C_AL_MY_COMPUTER   &kp RC(Z)  &kp RC(Y)  &kp UP          &msc SCRL_UP   &msc SCRL_DOWN                   &kp RA(HOME)     &kp RA(LEFT)     &kp RA(RIGHT_ARROW)  &kp RC(N)        &kp RC(RS(N))    &kp INS
+&mt LEFT_WIN ESC      &kp RC(S)  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TAB                                &kp RG(V)        &kp RIGHT_ALT    &kp RCTRL            &kp RIGHT_SHIFT  &kp RIGHT_WIN    &kp RIGHT_WIN
+&kp SCROLLLOCK        &kp RC(A)      &kp RC(X)      &kp RC(C)   &kp RC(V)   &kp BACKSPACE     &trans    &trans     &none  &none  &none      &none  &none  &kp DEL
+                                  &none           &none           &none           &lt RAISE BACKSPACE     &trans    &lt ADJUST ENTER  &lt RAISE SPACE &none &none &none
             >;
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
@@ -118,21 +118,21 @@
         layer_5 {
             display-name = "SETTINGS";
             bindings = <
-&to LOCK &ext_power EP_TOG   &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD   &rgb_ug RGB_SAI   &kp C      &kp C               &rgb_ug RGB_SAI   &rgb_ug RGB_SAD &rgb_ug RGB_HUI  &rgb_ug RGB_HUD &ext_power EP_TOG &to LOCK
-&rgb_ug RGB_SPD &rgb_ug RGB_SPI &rgb_ug RGB_BRD &rgb_ug RGB_BRI &rgb_ug RGB_EFR &rgb_ug RGB_EFF     &kp C      &kp C              &rgb_ug RGB_EFF &rgb_ug RGB_EFR  &rgb_ug RGB_BRI &rgb_ug RGB_BRD &rgb_ug RGB_SPI &rgb_ug RGB_SPD
-&out OUT_TOG       &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &kp C       &kp C        &bt BT_SEL 4        &bt BT_SEL 3    &bt BT_SEL 2    &bt BT_SEL 1    &bt BT_SEL 0    &out OUT_TOG
-&bt BT_CLR_ALL      &bt BT_CLR        &none           &none           &none           &none   &kp C   &kp C      &none  &none  &none &none &none &none &bt BT_CLR_ALL &bt BT_CLR
-                                  &none           &none           &none           &none             &none  &kp C   &kp C       &none   &none &none &none &none
+&to LOCK &ext_power EP_TOG   &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD   &rgb_ug RGB_SAI                        &rgb_ug RGB_SAI   &rgb_ug RGB_SAD &rgb_ug RGB_HUI  &rgb_ug RGB_HUD &ext_power EP_TOG &to LOCK
+&rgb_ug RGB_SPD &rgb_ug RGB_SPI &rgb_ug RGB_BRD &rgb_ug RGB_BRI &rgb_ug RGB_EFR &rgb_ug RGB_EFF                         &rgb_ug RGB_EFF &rgb_ug RGB_EFR  &rgb_ug RGB_BRI &rgb_ug RGB_BRD &rgb_ug RGB_SPI &rgb_ug RGB_SPD
+&out OUT_TOG       &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4                   &bt BT_SEL 4        &bt BT_SEL 3    &bt BT_SEL 2    &bt BT_SEL 1    &bt BT_SEL 0    &out OUT_TOG
+&bt BT_CLR_ALL      &bt BT_CLR        &none           &none           &none           &none            &none  &none  &none &none &none &none &bt BT_CLR_ALL &bt BT_CLR
+                                  &none           &none           &none           &none             &none            &none   &none &none &none &none
             >;
         };
         layer_6 {
             display-name = "LOCK";
             bindings = <
-&to BASE        &none           &none           &none           &none           &none     &kp C   &kp C    &none  &none  &none &none &none &to BASE 
-&none        &none           &none           &none           &none           &none    &kp C    &kp C       &none  &none  &none &none &none &none 
-&none        &none           &none           &none           &none           &none    &kp C     &kp C      &none  &none  &none &none &none &none 
-&none        &none           &none           &none           &none           &none &kp C &kp C &none  &none &none &none &none &none &none &none
-                                  &none           &none           &none           &none &kp C    &kp C        &none            &none   &none &none &none &none
+&to BASE        &none           &none           &none           &none           &none            &none  &none  &none &none &none &to BASE 
+&none        &none           &none           &none           &none           &none               &none  &none  &none &none &none &none 
+&none        &none           &none           &none           &none           &none               &none  &none  &none &none &none &none 
+&none        &none           &none           &none           &none           &none  &none  &none &none &none &none &none &none &none
+                                  &none           &none           &none           &none             &none            &none   &none &none &none &none
             >;
         };
     };
